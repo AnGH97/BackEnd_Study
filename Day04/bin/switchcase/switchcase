@@ -1,0 +1,31 @@
+선택문 - switch ~ case문
+ - 값에 따라서 실행 내용을 선택하여 실행하는 제어문
+ - 선택지를 주고 고르는 형식
+ - 공간이 가지고 있을 값들을 생각해서 case문을 작성하면 된다.
+ 
+ - 형식
+ 		switch(공간){
+ 		case 상수1:
+ 			실행내용;
+ 			break;
+ 		case 상수2:
+ 			실행내용;
+ 			break;
+ 		case 상수3:
+ 			실행내용;
+ 			break;
+ 		....
+ 		default:
+ 			실행내용;
+ 		}
+ 		
+ 		- case문의 상수의 타입은 반드시 byte, short, char, int, String 중에 하나여야한다.
+ 		- 공간은 일반적으로 byte, short, char, int, String 변수 중에 하나여야 한다.
+ 		 - 계산식이 들어가질 수 있다.. 다만 최종적인 결과 값의 형태가 반드시
+ 		   byte, short, char, int, String 중에 하나여야 한다.
+ 		- 별다른 제약이 없으면 해당 case분 부터 순차적으로 실행된다.
+ 		- default는 if문의 else와 비슷한 역할을 한다.
+ 		 - break;
+ 		  - 제어문 안에서 if문을 제외한 가장 처음 만나는 중괄호를 빠져나오는 역할
+ 		  - switch ~ case, do ~ while, while, for중에 실행 루프로부터 벗어나려 할 때 사용하는 흐름 제어문
+ 		  
